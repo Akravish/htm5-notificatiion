@@ -1,0 +1,11 @@
+.idea
+.sass-cache
+node_modules
+ruby
+build
+temp
+#----------
+
+.gitignore~
+backup
+

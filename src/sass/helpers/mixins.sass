@@ -1,0 +1,33 @@
+//---display-inline
+=d-inline
+  display: inline-block
+  vertical-align: top
+
+//---text overflow
+=text-dots
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+//---fonts-size
+=fs($size)
+  font-size: $size
+  font-size: ($size / $base-font-size) * 1rem
+
+=lh($size)
+  line-height: $size
+  line-height: ($size / $base-font-size) * 1rem
+
+//---clearfix
+=clearfix
+  *zoom: 1
+  &:after
+    content: ''
+    display: table
+    clear: both
+
+//---
+=tr
+  transition: all .4s
+
+

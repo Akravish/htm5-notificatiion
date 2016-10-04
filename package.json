@@ -1,0 +1,29 @@
+{
+  "name": "Frontend-Starter-Kit",
+  "version": "2.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Akravish ssdosp@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "bower": "~1.7.9",
+    "jade": "^1.11.0",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-newer": "^1.2.0",
+    "gulp-debug": "2.1.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-jade-inheritance": "^0.5.5",
+    "gulp-util": "^3.0.7",
+
+    "del": "^2.2.0"
+  }
+}

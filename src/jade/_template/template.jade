@@ -1,0 +1,32 @@
+doctype html
+html
+    head
+        block title
+            title {default title}
+        //---link(rel='shortcut icon', href='img/source/favicon-cake.ico', type='image/x-icon')
+        block meta
+            include meta.jade
+        block style
+            include style.jade
+        //google analytics
+        block metika_google
+          include metika_google.jade
+
+    body
+        //upgrade old ie
+        block upgrade
+            include ../_includes/upgradeBrowser.jade
+        //header
+        block header
+
+        //content
+        block content
+
+        block js
+            include js.jade
+
+        block js-page
+
+        //yandex metrica
+        block metika_yandex
+          include metika_yandex.jade

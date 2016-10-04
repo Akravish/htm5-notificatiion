@@ -1,0 +1,30 @@
+
+.mainContacts
+    a.mainContacts__link(href='##' title='contacts') Контакты
+
+    .mainContacts__wrapper
+        .mainContacts__inner
+            h2.mainContacts__title Натуральная защита от комаров продается здесь:
+
+            .mainContacts__desc.clearfix
+                ul.mainContacts__leftDesc
+                    li Связаться с нами Вы можете по телефону:
+                    li Краснодаре
+                        = ' '
+                        span 8(861) 216-70-23
+                        | ,
+                    li Невинномысске
+                        = ' '
+                        span 8 (86554) 54-115
+                ul.mainContacts__rightDesc
+                    li Ждем Ваших эл. писем по адресу
+                    li
+                        = ' '
+                        a(href='mailto:company@arnestcom.ru') company@arnestcom.ru
+
+            ul.mainContacts__sellers.contactsSellers
+                - for (var i = 1; i < 20; i++) {
+                li.contactsSellers__item
+                    a.contactsSellers__link(href='#')
+                        img.contactsSellers__img(src='img/media/sellers/seller-' + i + '.png' alt='Seller')
+                - }
